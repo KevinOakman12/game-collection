@@ -1,0 +1,552 @@
+{
+ "genres": [
+  {
+   "id": 1,
+   "name": "Экшен"
+  },
+  {
+   "id": 2,
+   "name": "Ролевая игра"
+  },
+  {
+   "id": 3,
+   "name": "Приключения"
+  },
+  {
+   "id": 4,
+   "name": "Шутер"
+  },
+  {
+   "id": 5,
+   "name": "Стратегия"
+  },
+  {
+   "id": 6,
+   "name": "Платформер"
+  },
+  {
+   "id": 7,
+   "name": "Гонки"
+  },
+  {
+   "id": 8,
+   "name": "Симулятор"
+  },
+  {
+   "id": 9,
+   "name": "Головоломка"
+  },
+  {
+   "id": 10,
+   "name": "Песочница"
+  }
+ ],
+ "platforms": [
+  {
+   "id": 1,
+   "name": "PC",
+   "manufacturer": null
+  },
+  {
+   "id": 2,
+   "name": "PlayStation 4",
+   "manufacturer": "Sony"
+  },
+  {
+   "id": 3,
+   "name": "PlayStation 5",
+   "manufacturer": "Sony"
+  },
+  {
+   "id": 4,
+   "name": "Xbox One",
+   "manufacturer": "Microsoft"
+  },
+  {
+   "id": 5,
+   "name": "Xbox Series X|S",
+   "manufacturer": "Microsoft"
+  },
+  {
+   "id": 6,
+   "name": "Nintendo Switch",
+   "manufacturer": "Nintendo"
+  },
+  {
+   "id": 7,
+   "name": "Android",
+   "manufacturer": "Google"
+  },
+  {
+   "id": 8,
+   "name": "iOS",
+   "manufacturer": "Apple"
+  }
+ ],
+ "games": [
+  {
+   "id": 1,
+   "title": "The Witcher 3: Wild Hunt",
+   "description": "Ролевая игра с открытым миром о ведьмаке Геральте из Ривии.",
+   "release_year": 2015,
+   "developer": "CD Projekt Red",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 2,
+   "title": "Cyberpunk 2077",
+   "description": "Ролевая игра в открытом мире мегаполиса Найт-Сити.",
+   "release_year": 2020,
+   "developer": "CD Projekt Red",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "created_by": null
+  },
+  {
+   "id": 3,
+   "title": "Elden Ring",
+   "description": "Ролевая экшен-игра с открытым миром Междуземья.",
+   "release_year": 2022,
+   "developer": "FromSoftware",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "created_by": null
+  },
+  {
+   "id": 4,
+   "title": "Dark Souls III",
+   "description": "Ролевая экшен-игра с высокой сложностью сражений.",
+   "release_year": 2016,
+   "developer": "FromSoftware",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    4
+   ],
+   "created_by": null
+  },
+  {
+   "id": 5,
+   "title": "Red Dead Redemption 2",
+   "description": "Приключенческий вестерн с открытым миром.",
+   "release_year": 2018,
+   "developer": "Rockstar Games",
+   "cover_url": null,
+   "genre_id": 1,
+   "platform_ids": [
+    1,
+    2,
+    4
+   ],
+   "created_by": null
+  },
+  {
+   "id": 6,
+   "title": "Grand Theft Auto V",
+   "description": "Экшен с открытым миром о трёх главных героях.",
+   "release_year": 2013,
+   "developer": "Rockstar North",
+   "cover_url": null,
+   "genre_id": 1,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "created_by": null
+  },
+  {
+   "id": 7,
+   "title": "The Legend of Zelda: Breath of the Wild",
+   "description": "Приключенческая игра с открытым миром королевства Хайрул.",
+   "release_year": 2017,
+   "developer": "Nintendo",
+   "cover_url": null,
+   "genre_id": 3,
+   "platform_ids": [
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 8,
+   "title": "The Legend of Zelda: Tears of the Kingdom",
+   "description": "Продолжение Breath of the Wild с новыми механиками строительства.",
+   "release_year": 2023,
+   "developer": "Nintendo",
+   "cover_url": null,
+   "genre_id": 3,
+   "platform_ids": [
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 9,
+   "title": "Super Mario Odyssey",
+   "description": "Трёхмерный платформер о путешествии Марио по разным королевствам.",
+   "release_year": 2017,
+   "developer": "Nintendo",
+   "cover_url": null,
+   "genre_id": 6,
+   "platform_ids": [
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 10,
+   "title": "Hollow Knight",
+   "description": "Двухмерный платформер в жанре метроидвания.",
+   "release_year": 2017,
+   "developer": "Team Cherry",
+   "cover_url": null,
+   "genre_id": 6,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 11,
+   "title": "Celeste",
+   "description": "Сложный двухмерный платформер о восхождении на гору.",
+   "release_year": 2018,
+   "developer": "Maddy Makes Games",
+   "cover_url": null,
+   "genre_id": 6,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 12,
+   "title": "Stardew Valley",
+   "description": "Симулятор фермерской жизни.",
+   "release_year": 2016,
+   "developer": "ConcernedApe",
+   "cover_url": null,
+   "genre_id": 8,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+   ],
+   "created_by": null
+  },
+  {
+   "id": 13,
+   "title": "Minecraft",
+   "description": "Игра-песочница о строительстве и выживании в мире из блоков.",
+   "release_year": 2011,
+   "developer": "Mojang Studios",
+   "cover_url": null,
+   "genre_id": 10,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+   ],
+   "created_by": null
+  },
+  {
+   "id": 14,
+   "title": "Terraria",
+   "description": "Двухмерная игра-песочница с исследованием и строительством.",
+   "release_year": 2011,
+   "developer": "Re-Logic",
+   "cover_url": null,
+   "genre_id": 10,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+   ],
+   "created_by": null
+  },
+  {
+   "id": 15,
+   "title": "Hades",
+   "description": "Экшен с элементами roguelike о побеге из подземного царства.",
+   "release_year": 2020,
+   "developer": "Supergiant Games",
+   "cover_url": null,
+   "genre_id": 1,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 16,
+   "title": "God of War",
+   "description": "Экшен-приключение о Кратосе и его сыне в мире скандинавской мифологии.",
+   "release_year": 2018,
+   "developer": "Santa Monica Studio",
+   "cover_url": null,
+   "genre_id": 1,
+   "platform_ids": [
+    1,
+    2
+   ],
+   "created_by": null
+  },
+  {
+   "id": 17,
+   "title": "Marvel's Spider-Man",
+   "description": "Экшен с открытым миром о Человеке-пауке в Нью-Йорке.",
+   "release_year": 2018,
+   "developer": "Insomniac Games",
+   "cover_url": null,
+   "genre_id": 1,
+   "platform_ids": [
+    1,
+    2
+   ],
+   "created_by": null
+  },
+  {
+   "id": 18,
+   "title": "Baldur's Gate 3",
+   "description": "Ролевая игра по правилам Dungeons & Dragons.",
+   "release_year": 2023,
+   "developer": "Larian Studios",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    3,
+    5
+   ],
+   "created_by": null
+  },
+  {
+   "id": 19,
+   "title": "Portal 2",
+   "description": "Головоломка от первого лица с порталами.",
+   "release_year": 2011,
+   "developer": "Valve",
+   "cover_url": null,
+   "genre_id": 9,
+   "platform_ids": [
+    1,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 20,
+   "title": "Half-Life 2",
+   "description": "Шутер от первого лица о Гордоне Фримене.",
+   "release_year": 2004,
+   "developer": "Valve",
+   "cover_url": null,
+   "genre_id": 4,
+   "platform_ids": [
+    1
+   ],
+   "created_by": null
+  },
+  {
+   "id": 21,
+   "title": "DOOM Eternal",
+   "description": "Динамичный шутер от первого лица.",
+   "release_year": 2020,
+   "developer": "id Software",
+   "cover_url": null,
+   "genre_id": 4,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 22,
+   "title": "Counter-Strike 2",
+   "description": "Командный многопользовательский шутер.",
+   "release_year": 2023,
+   "developer": "Valve",
+   "cover_url": null,
+   "genre_id": 4,
+   "platform_ids": [
+    1
+   ],
+   "created_by": null
+  },
+  {
+   "id": 23,
+   "title": "Sid Meier's Civilization VI",
+   "description": "Пошаговая глобальная стратегия о развитии цивилизации.",
+   "release_year": 2016,
+   "developer": "Firaxis Games",
+   "cover_url": null,
+   "genre_id": 5,
+   "platform_ids": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 24,
+   "title": "StarCraft II: Wings of Liberty",
+   "description": "Стратегия в реальном времени в научно-фантастическом сеттинге.",
+   "release_year": 2010,
+   "developer": "Blizzard Entertainment",
+   "cover_url": null,
+   "genre_id": 5,
+   "platform_ids": [
+    1
+   ],
+   "created_by": null
+  },
+  {
+   "id": 25,
+   "title": "Forza Horizon 5",
+   "description": "Гоночная игра с открытым миром Мексики.",
+   "release_year": 2021,
+   "developer": "Playground Games",
+   "cover_url": null,
+   "genre_id": 7,
+   "platform_ids": [
+    1,
+    4,
+    5
+   ],
+   "created_by": null
+  },
+  {
+   "id": 26,
+   "title": "Gran Turismo 7",
+   "description": "Автосимулятор с большой коллекцией автомобилей.",
+   "release_year": 2022,
+   "developer": "Polyphony Digital",
+   "cover_url": null,
+   "genre_id": 7,
+   "platform_ids": [
+    2,
+    3
+   ],
+   "created_by": null
+  },
+  {
+   "id": 27,
+   "title": "Mario Kart 8 Deluxe",
+   "description": "Аркадные гонки на картах с персонажами Nintendo.",
+   "release_year": 2017,
+   "developer": "Nintendo",
+   "cover_url": null,
+   "genre_id": 7,
+   "platform_ids": [
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 28,
+   "title": "Disco Elysium",
+   "description": "Детективная ролевая игра с упором на диалоги.",
+   "release_year": 2019,
+   "developer": "ZA/UM",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "created_by": null
+  },
+  {
+   "id": 29,
+   "title": "Genshin Impact",
+   "description": "Ролевая экшен-игра с открытым миром.",
+   "release_year": 2020,
+   "developer": "miHoYo",
+   "cover_url": null,
+   "genre_id": 2,
+   "platform_ids": [
+    1,
+    2,
+    3,
+    7,
+    8
+   ],
+   "created_by": null
+  },
+  {
+   "id": 30,
+   "title": "Stray",
+   "description": "Приключенческая игра о бездомном коте в городе роботов.",
+   "release_year": 2022,
+   "developer": "BlueTwelve Studio",
+   "cover_url": null,
+   "genre_id": 3,
+   "platform_ids": [
+    1,
+    2,
+    3
+   ],
+   "created_by": null
+  }
+ ]
+}

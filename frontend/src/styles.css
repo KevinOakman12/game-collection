@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background: #f5f5fa;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #fff;
+  padding: 0 24px;
+  border-bottom: 1px solid #ececf3;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.app-logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5b4bdb;
+  white-space: nowrap;
+}
+
+.app-menu {
+  flex: 1;
+  min-width: 0;
+  border-bottom: none;
+}
+
+.app-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  box-sizing: border-box;
+}
+
+.page-title {
+  margin-top: 0 !important;
+}
+
+.filters {
+  margin-bottom: 16px;
+}
+
+.game-card .ant-card-body {
+  padding: 12px 16px;
+}
+
+.game-cover {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  background: #e9e7fb;
+}
+
+.game-cover-placeholder {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  /* !important: Ant Design задаёт обложке карточки display: block */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #5b4bdb, #8f7cf4);
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.game-cover-small {
+  width: 48px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.game-cover-small .game-cover-placeholder {
+  font-size: 14px;
+}
+
+.game-cover-large {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.auth-card {
+  max-width: 420px;
+  margin: 48px auto;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

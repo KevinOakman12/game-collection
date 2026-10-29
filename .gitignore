@@ -1,0 +1,12 @@
+backend/.venv/
+backend/games.db
+__pycache__/
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+.claude/
+
+# Материалы курсовой работы хранятся только локально
+docs/
+*.docx
+~$*
